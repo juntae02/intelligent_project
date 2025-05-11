@@ -1,3 +1,0 @@
-[console_scripts]
-beep_node = turtlebot4_beep.beep_node:main
-
