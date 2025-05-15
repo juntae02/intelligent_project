@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # 학습된 모델 로드
-model = YOLO("/home/juntae02/Desktop/best.pt")
+model = YOLO("/home/rokey/rokey_ws/src/best.pt")
 
 # 카메라 스트림 열기 (카메라 인덱스 0, 필요 시 변경)
 cap = cv2.VideoCapture(2)
@@ -17,10 +17,10 @@ while cap.isOpened():
     frame_resized = cv2.resize(frame, (160, 160))
     
     # 프레임 전처리: 밝기/대비 조정
-    frame_resized = cv2.convertScaleAbs(frame_resized, alpha=1.2, beta=10)
+    frame_resized = cv2.convertScaleAbs(frame_resized, alpha=2.0, beta=20)
     
     # 예측
-    results = model.predict(frame_resized, conf=0.05, iou=0.5, device=1)
+    results = model.predict(frame_resized, conf=0.05, iou=0.5, device=0)
     
     # 결과 시각화
     annotated_frame = results[0].plot()
