@@ -1,0 +1,5 @@
+names: [0]
+nc: 1
+test: /home/juntae02/rokey_ws/src/yolov8_ros/yolov8_ros/img_capture_split/test
+train: /home/juntae02/rokey_ws/src/yolov8_ros/yolov8_ros/img_capture_split/train
+val: /home/juntae02/rokey_ws/src/yolov8_ros/yolov8_ros/img_capture_split/val

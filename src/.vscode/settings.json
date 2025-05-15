@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages",
+        "/home/juntae02/rokey_ws/build/turtlebot4_beep",
+        "/home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages",
+        "/home/juntae02/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/juntae02/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/juntae02/ros2_ws/install/common2/lib/common2/imp"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages",
+        "/home/juntae02/rokey_ws/build/turtlebot4_beep",
+        "/home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages",
+        "/home/juntae02/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/juntae02/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/juntae02/ros2_ws/install/common2/lib/common2/imp"
+    ]
+}
