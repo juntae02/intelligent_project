@@ -1,0 +1,10 @@
+[console_scripts]
+capture_image = rokey_pjt.tb4_capture_image:main
+check_depth = rokey_pjt.depth_checker:main
+check_depth_click = rokey_pjt.depth_checker_mouse_click:main
+cont_cap_image = rokey_pjt.tb4_cont_capture_image:main
+det_obj = rokey_pjt.tb4_yolov8_obj_det:main
+det_obj_thread = rokey_pjt.tb4_yolov8_obj_det_thread:main
+det_obj_track = rokey_pjt.tb4_yolov8_obj_det_track:main
+yolo_depth_checker = rokey_pjt.3_tb4_yolo_bbox_depth_checker:main
+

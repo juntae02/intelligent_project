@@ -1,0 +1,8 @@
+[console_scripts]
+data_pub = 9_3_data_publisher:main
+data_sub = 9_4_data_subscriber:main
+image_pub = 9_1_image_publisher:main
+image_sub = 9_2_image_subscriber:main
+yolo_pub = 9_5_yolo_publisher:main
+yolo_sub = 9_6_yolo_subscriber:main
+

@@ -1,0 +1,5 @@
+names: [0, 1]
+nc: 2
+test: /home/juntae02/rokey_ws/images_split/test
+train: /home/juntae02/rokey_ws/images_split/train
+val: /home/juntae02/rokey_ws/images_split/val
