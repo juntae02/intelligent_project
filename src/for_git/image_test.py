@@ -34,7 +34,7 @@ while cap.isOpened():
     # 'q' 키로 종료
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
+##
 cap.release()
 cv2.destroyAllWindows()
  
