@@ -13,9 +13,11 @@ rokey_pjt/3_tb4_yolo_bbox_depth_checker.py
 rokey_pjt/__init__.py
 rokey_pjt/depth_checker.py
 rokey_pjt/depth_checker_mouse_click.py
+rokey_pjt/robot_action_copy.py
 rokey_pjt/tb4_yolov8_obj_det.py
 rokey_pjt/tb4_yolov8_obj_det_thread.py
 rokey_pjt/tb4_yolov8_obj_det_track.py
+rokey_pjt/test.py
 rokey_pjt.egg-info/PKG-INFO
 rokey_pjt.egg-info/SOURCES.txt
 rokey_pjt.egg-info/dependency_links.txt

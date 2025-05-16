@@ -28,6 +28,7 @@ setup(
             'check_depth = rokey_pjt.depth_checker:main',
             'check_depth_click = rokey_pjt.depth_checker_mouse_click:main',
             'yolo_depth_checker = rokey_pjt.3_tb4_yolo_bbox_depth_checker:main',
+            'test_server = rokey_pjt.robot_action_copy:main'
         ],
     },
 )

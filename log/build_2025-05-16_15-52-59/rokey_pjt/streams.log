@@ -1,0 +1,25 @@
+[0.514s] Invoking command in '/home/juntae02/rokey_ws/build/rokey_pjt': PYTHONPATH=/home/juntae02/rokey_ws/build/rokey_pjt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/rokey_pjt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juntae02/rokey_ws/build/rokey_pjt/build --no-deps symlink_data
+[0.725s] running develop
+[0.877s] running egg_info
+[0.877s] writing rokey_pjt.egg-info/PKG-INFO
+[0.877s] writing dependency_links to rokey_pjt.egg-info/dependency_links.txt
+[0.877s] writing entry points to rokey_pjt.egg-info/entry_points.txt
+[0.878s] writing requirements to rokey_pjt.egg-info/requires.txt
+[0.878s] writing top-level names to rokey_pjt.egg-info/top_level.txt
+[0.880s] reading manifest file 'rokey_pjt.egg-info/SOURCES.txt'
+[0.880s] writing manifest file 'rokey_pjt.egg-info/SOURCES.txt'
+[0.882s] running build_ext
+[0.882s] Creating /home/juntae02/rokey_ws/install/rokey_pjt/lib/python3.10/site-packages/rokey-pjt.egg-link (link to .)
+[0.883s] Installing capture_image script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing check_depth script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing check_depth_click script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing cont_cap_image script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing det_obj script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing det_obj_thread script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing det_obj_track script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing test_server script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] Installing yolo_depth_checker script to /home/juntae02/rokey_ws/install/rokey_pjt/lib/rokey_pjt
+[0.883s] 
+[0.883s] Installed /home/juntae02/rokey_ws/build/rokey_pjt
+[0.884s] running symlink_data
+[0.911s] Invoked command in '/home/juntae02/rokey_ws/build/rokey_pjt' returned '0': PYTHONPATH=/home/juntae02/rokey_ws/build/rokey_pjt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/rokey_pjt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juntae02/rokey_ws/build/rokey_pjt/build --no-deps symlink_data

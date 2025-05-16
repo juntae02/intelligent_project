@@ -6,5 +6,6 @@ cont_cap_image = rokey_pjt.tb4_cont_capture_image:main
 det_obj = rokey_pjt.tb4_yolov8_obj_det:main
 det_obj_thread = rokey_pjt.tb4_yolov8_obj_det_thread:main
 det_obj_track = rokey_pjt.tb4_yolov8_obj_det_track:main
+test_server = rokey_pjt.robot_action_copy:main
 yolo_depth_checker = rokey_pjt.3_tb4_yolo_bbox_depth_checker:main
 
