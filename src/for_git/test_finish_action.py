@@ -6,7 +6,7 @@ import time
 class ActionFinishPublisher(Node):
     def __init__(self):
         super().__init__('action_finish_publisher')
-        self.publisher_ = self.create_publisher(Bool, 'action_finish', 10)
+        self.publisher_ = self.create_publisher(Bool, 'action_finish_test', 10)
 
     def publish_action_finish(self):
         msg = Bool()
