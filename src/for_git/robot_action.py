@@ -4,11 +4,13 @@ from rclpy.action import ActionClient
 from irobot_create_msgs.action import RotateAngle
 import math
 import time
+from std_msgs.msg import Bool # 종료 토픽 발행
 
 class RotationController(Node):
     def __init__(self):
         super().__init__('rotation_controller')
         self._action_client = ActionClient(self, RotateAngle, '/robot2/rotate_angle')
+        self._finish_publisher = self.create_publisher(Bool, 'action_finish', 10)
 
     def send_rotation_goal(self, angle_rad, speed_rad_per_sec):
         goal_msg = RotateAngle.Goal()
@@ -36,7 +38,7 @@ class RotationController(Node):
     def run_rotation_loop(self):
         angle_rad = math.radians(30)
         speed = 1.0  # rad/s
-        count =0
+        count = 0
 
         self.get_logger().info('🔄 Rotating left 60°...')
         self.send_rotation_goal(angle_rad, speed)
@@ -51,10 +53,26 @@ class RotationController(Node):
             self.get_logger().info('🔄 Rotating right 60°...')
             self.send_rotation_goal(angle_rad*2, speed)
             time.sleep(0.4)
+
+            if count == 3:
+                msg = Bool()
+                msg.data = True
+                self._finish_publisher.publish(msg)
             count += 1
+
         self.get_logger().info('🔄 Rotating left 60°...')
         self.send_rotation_goal(-angle_rad, speed)
         time.sleep(0.4)
+
+        angle_rad = math.radians(360)
+        self.get_logger().info('🔄 Rotating full 360° -> left ...')
+        self.send_rotation_goal(angle_rad, speed)
+        time.sleep(0.4)
+
+        self.get_logger().info('🔄 Rotating full 360°-> right...')
+        self.send_rotation_goal(-angle_rad, speed)
+        time.sleep(0.4)
+
 
 
 def main(args=None): 
