@@ -1,1 +1,0 @@
-/home/juntae02/rokey_ws/src/rokey_pjt/setup.py

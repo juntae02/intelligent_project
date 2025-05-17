@@ -1,0 +1,40 @@
+running egg_info
+writing ../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+writing requirements to ../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+writing top-level names to ../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+reading manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yolov8_ros/test2.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/3_dataset_splitter.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/2_2_capture_image_1sec.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/yolov8_obj_det_wc.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/test.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+running install
+running install_lib
+copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/test2.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/3_dataset_splitter.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/2_2_capture_image_1sec.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/yolov8_obj_det_wc.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/test.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/test2.py to test2.cpython-310.pyc
+byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/3_dataset_splitter.py to 3_dataset_splitter.cpython-310.pyc
+byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/2_2_capture_image_1sec.py to 2_2_capture_image_1sec.cpython-310.pyc
+byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_obj_det_wc.py to yolov8_obj_det_wc.cpython-310.pyc
+byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/test.py to test.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/yolov8_ros/yolov8_ros.egg-info to /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_pub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+Installing data_sub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+Installing image_pub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+Installing image_sub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+Installing yolo_pub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+Installing yolo_sub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+writing list of installed files to '/home/juntae02/rokey_ws/build/yolov8_ros/install.log'

@@ -31,3 +31,6 @@ yolov8_ros/9_4_data_subscriber.py
 yolov8_ros/9_5_yolo_publisher.py
 yolov8_ros/9_6_yolo_subscriber.py
 yolov8_ros/__init__.py
+yolov8_ros/test.py
+yolov8_ros/test2.py
+yolov8_ros/yolov8_obj_det_wc.py

@@ -46,7 +46,7 @@ def capture_images():
             cv2.imwrite(filename, frame)
             print(f"이미지 저장 완료: {filename}")
             image_count += 1
-            time.sleep(CAPTURE_INTERVAL)
+            time.sleep(CAPTURE_INTERVAL)        # 딜레이 발생
 
     cap.release()
     cv2.destroyAllWindows()

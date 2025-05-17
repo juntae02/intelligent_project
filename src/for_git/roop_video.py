@@ -25,7 +25,7 @@ class ActionFinishSubscriber(Node):
         super().__init__('action_finish_listener')
         self.subscription = self.create_subscription(
             Bool,
-            'action_finish',  # 🔄 토픽 이름 변경됨
+            'action_finish',  
             self.listener_callback,
             10
         )
@@ -34,7 +34,7 @@ class ActionFinishSubscriber(Node):
     def listener_callback(self, msg):
         global current_mode, action_finish_received
         if msg.data:
-            self.get_logger().info('✅ Received finish_fire=True. Switching to datacenter image.')
+            self.get_logger().info('Received finish_fire=True. Switching to datacenter image.')
             current_mode = 2
             action_finish_received = True
 

@@ -1,0 +1,37 @@
+[1.212s] Invoking command in '/home/juntae02/rokey_ws/build/turtlebot4_beep': PYTHONPATH=/home/juntae02/rokey_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/juntae02/rokey_ws/build/turtlebot4_beep/build
+[1.448s] running develop
+[1.621s] Removing /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4-beep.egg-link (link to .)
+[1.685s] Invoked command in '/home/juntae02/rokey_ws/build/turtlebot4_beep' returned '0': PYTHONPATH=/home/juntae02/rokey_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/juntae02/rokey_ws/build/turtlebot4_beep/build
+[1.686s] Invoking command in '/home/juntae02/rokey_ws/src/turtlebot4_beep': PYTHONPATH=/home/juntae02/rokey_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_beep build --build-base /home/juntae02/rokey_ws/build/turtlebot4_beep/build install --record /home/juntae02/rokey_ws/build/turtlebot4_beep/install.log --single-version-externally-managed install_data --force
+[1.980s] running egg_info
+[1.981s] writing ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/PKG-INFO
+[1.981s] writing dependency_links to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/dependency_links.txt
+[1.982s] writing entry points to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/entry_points.txt
+[1.982s] writing requirements to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/requires.txt
+[1.982s] writing top-level names to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/top_level.txt
+[1.986s] reading manifest file '../../build/turtlebot4_beep/turtlebot4_beep.egg-info/SOURCES.txt'
+[1.987s] adding license file 'LICENSE'
+[1.988s] writing manifest file '../../build/turtlebot4_beep/turtlebot4_beep.egg-info/SOURCES.txt'
+[1.988s] running build
+[1.988s] running build_py
+[1.989s] creating /home/juntae02/rokey_ws/build/turtlebot4_beep/build
+[1.989s] creating /home/juntae02/rokey_ws/build/turtlebot4_beep/build/lib
+[1.989s] creating /home/juntae02/rokey_ws/build/turtlebot4_beep/build/lib/turtlebot4_beep
+[1.989s] copying turtlebot4_beep/beep_node.py -> /home/juntae02/rokey_ws/build/turtlebot4_beep/build/lib/turtlebot4_beep
+[1.989s] copying turtlebot4_beep/__init__.py -> /home/juntae02/rokey_ws/build/turtlebot4_beep/build/lib/turtlebot4_beep
+[1.989s] running install
+[1.990s] running install_lib
+[1.991s] creating /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep
+[1.991s] copying /home/juntae02/rokey_ws/build/turtlebot4_beep/build/lib/turtlebot4_beep/beep_node.py -> /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep
+[1.991s] copying /home/juntae02/rokey_ws/build/turtlebot4_beep/build/lib/turtlebot4_beep/__init__.py -> /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep
+[1.993s] byte-compiling /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep/beep_node.py to beep_node.cpython-310.pyc
+[1.993s] byte-compiling /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep/__init__.py to __init__.cpython-310.pyc
+[1.993s] running install_data
+[1.993s] copying resource/turtlebot4_beep -> /home/juntae02/rokey_ws/install/turtlebot4_beep/share/ament_index/resource_index/packages
+[1.993s] copying package.xml -> /home/juntae02/rokey_ws/install/turtlebot4_beep/share/turtlebot4_beep
+[1.993s] running install_egg_info
+[1.997s] Copying ../../build/turtlebot4_beep/turtlebot4_beep.egg-info to /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep-0.0.0-py3.10.egg-info
+[1.997s] running install_scripts
+[2.031s] Installing beep_node script to /home/juntae02/rokey_ws/install/turtlebot4_beep/lib/turtlebot4_beep
+[2.031s] writing list of installed files to '/home/juntae02/rokey_ws/build/turtlebot4_beep/install.log'
+[2.094s] Invoked command in '/home/juntae02/rokey_ws/src/turtlebot4_beep' returned '0': PYTHONPATH=/home/juntae02/rokey_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_beep build --build-base /home/juntae02/rokey_ws/build/turtlebot4_beep/build install --record /home/juntae02/rokey_ws/build/turtlebot4_beep/install.log --single-version-externally-managed install_data --force

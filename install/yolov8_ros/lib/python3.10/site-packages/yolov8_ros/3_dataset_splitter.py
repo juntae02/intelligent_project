@@ -6,7 +6,7 @@ import os
 BASE_DIR = os.getcwd()
 
 # 원본 데이터 폴더
-IMAGE_DIR = "/home/mi/rokey_ws/images"
+IMAGE_DIR = "/home/juntae02/Desktop/images"
 
 # 1. YoloSplitter 설정
 ys = YoloSplitter(imgFormat=['.jpg', '.jpeg', '.png'], labelFormat=['.txt'])

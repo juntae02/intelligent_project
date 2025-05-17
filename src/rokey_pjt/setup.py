@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'ai_depict1 = rokey_pjt.ai_depict:main',
             'capture_image = rokey_pjt.tb4_capture_image:main',
             'cont_cap_image = rokey_pjt.tb4_cont_capture_image:main',
             'det_obj = rokey_pjt.tb4_yolov8_obj_det:main',
@@ -28,7 +29,9 @@ setup(
             'check_depth = rokey_pjt.depth_checker:main',
             'check_depth_click = rokey_pjt.depth_checker_mouse_click:main',
             'yolo_depth_checker = rokey_pjt.3_tb4_yolo_bbox_depth_checker:main',
-            'test_server = rokey_pjt.robot_action_copy:main'
+            'test_server = rokey_pjt.robot_action_copy:main',
+            'test_cli = rokey_pjt.juntae:main',
+            'tf_trans = rokey_pjt.4_tb4_tf_transform:main',
         ],
     },
 )

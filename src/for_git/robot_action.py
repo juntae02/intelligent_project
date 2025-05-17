@@ -25,32 +25,32 @@ class RotationController(Node):
         goal_handle = send_goal_future.result()
 
         if not goal_handle.accepted:
-            self.get_logger().error('❌ Goal was rejected by the server.')
+            self.get_logger().error('Goal was rejected by the server.')
             return
 
-        self.get_logger().info('✅ Goal accepted, waiting for result...')
+        self.get_logger().info('Goal accepted, waiting for result...')
         result_future = goal_handle.get_result_async()
         rclpy.spin_until_future_complete(self, result_future)
 
         result = result_future.result().result
-        self.get_logger().info(f'🎉 Rotation of {math.degrees(angle_rad):.1f}° complete.')
+        self.get_logger().info(f'Rotation of {math.degrees(angle_rad):.1f}° complete.')
 
     def run_rotation_loop(self):
         angle_rad = math.radians(30)
         speed = 1.0  # rad/s
         count = 0
 
-        self.get_logger().info('🔄 Rotating left 60°...')
+        self.get_logger().info('Rotating left 60°...')
         self.send_rotation_goal(angle_rad, speed)
         time.sleep(0.4)
 
         # while rclpy.ok():
         while (count < 5):
-            self.get_logger().info('🔄 Rotating left 60°...')
+            self.get_logger().info('Rotating left 60°...')
             self.send_rotation_goal(-angle_rad*2, speed)
             time.sleep(0.4)
 
-            self.get_logger().info('🔄 Rotating right 60°...')
+            self.get_logger().info('Rotating right 60°...')
             self.send_rotation_goal(angle_rad*2, speed)
             time.sleep(0.4)
 
@@ -60,16 +60,16 @@ class RotationController(Node):
                 self._finish_publisher.publish(msg)
             count += 1
 
-        self.get_logger().info('🔄 Rotating left 60°...')
+        self.get_logger().info('Rotating left 60°...')
         self.send_rotation_goal(-angle_rad, speed)
         time.sleep(0.4)
 
         angle_rad = math.radians(360)
-        self.get_logger().info('🔄 Rotating full 360° -> left ...')
+        self.get_logger().info('Rotating full 360° -> left ...')
         self.send_rotation_goal(angle_rad, speed)
         time.sleep(0.4)
 
-        self.get_logger().info('🔄 Rotating full 360°-> right...')
+        self.get_logger().info('Rotating full 360°-> right...')
         self.send_rotation_goal(-angle_rad, speed)
         time.sleep(0.4)
 

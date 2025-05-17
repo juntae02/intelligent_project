@@ -1,0 +1,42 @@
+[1.203s] Invoking command in '/home/juntae02/rokey_ws/src/yolov8_ros': PYTHONPATH=/home/juntae02/rokey_ws/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros build --build-base /home/juntae02/rokey_ws/build/yolov8_ros/build install --record /home/juntae02/rokey_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data
+[1.426s] running egg_info
+[1.427s] writing ../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[1.427s] writing dependency_links to ../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[1.427s] writing entry points to ../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[1.427s] writing requirements to ../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[1.427s] writing top-level names to ../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[1.429s] reading manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.430s] adding license file 'LICENSE'
+[1.430s] writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.431s] running build
+[1.431s] running build_py
+[1.431s] copying yolov8_ros/test2.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.431s] copying yolov8_ros/3_dataset_splitter.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.433s] copying yolov8_ros/2_2_capture_image_1sec.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.433s] copying yolov8_ros/yolov8_obj_det_wc.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.433s] copying yolov8_ros/test.py -> /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.434s] running install
+[1.434s] running install_lib
+[1.434s] copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/test2.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.434s] copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/3_dataset_splitter.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.434s] copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/2_2_capture_image_1sec.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.434s] copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/yolov8_obj_det_wc.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.434s] copying /home/juntae02/rokey_ws/build/yolov8_ros/build/lib/yolov8_ros/test.py -> /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.434s] byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/test2.py to test2.cpython-310.pyc
+[1.435s] byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/3_dataset_splitter.py to 3_dataset_splitter.cpython-310.pyc
+[1.435s] byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/2_2_capture_image_1sec.py to 2_2_capture_image_1sec.cpython-310.pyc
+[1.436s] byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_obj_det_wc.py to yolov8_obj_det_wc.cpython-310.pyc
+[1.437s] byte-compiling /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/test.py to test.cpython-310.pyc
+[1.437s] running install_data
+[1.437s] running install_egg_info
+[1.439s] removing '/home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[1.439s] Copying ../../build/yolov8_ros/yolov8_ros.egg-info to /home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[1.440s] running install_scripts
+[1.456s] Installing data_pub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+[1.456s] Installing data_sub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+[1.456s] Installing image_pub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+[1.456s] Installing image_sub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+[1.456s] Installing yolo_pub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+[1.456s] Installing yolo_sub script to /home/juntae02/rokey_ws/install/yolov8_ros/lib/yolov8_ros
+[1.457s] writing list of installed files to '/home/juntae02/rokey_ws/build/yolov8_ros/install.log'
+[1.480s] Invoked command in '/home/juntae02/rokey_ws/src/yolov8_ros' returned '0': PYTHONPATH=/home/juntae02/rokey_ws/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juntae02/rokey_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros build --build-base /home/juntae02/rokey_ws/build/yolov8_ros/build install --record /home/juntae02/rokey_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data
