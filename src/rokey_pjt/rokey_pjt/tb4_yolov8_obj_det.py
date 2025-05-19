@@ -11,9 +11,9 @@ from ultralytics import YOLO
 # ========================
 # 상수 정의
 # ========================
-MODEL_PATH = '/home/mi/rokey_ws/model/my_best.pt'  # YOLO 모델 경로 경로
+MODEL_PATH = '/home/juntae02/rokey_ws/model/11n_5_19.pt'  # YOLO 모델 경로 경로
 # MODEL_PATH = '/home/mi/rokey_ws/model/yolov8n.pt'  # YOLO 모델 경로
-IMAGE_TOPIC = '/robot4/oakd/rgb/preview/image_raw'  # 구독할 이미지 토픽 이름
+IMAGE_TOPIC = '/robot2/oakd/rgb/preview/image_raw'  # 구독할 이미지 토픽 이름
 TARGET_CLASS_ID = 0  # 탐지할 클래스 ID (예: car = 0)
 
 # ========================

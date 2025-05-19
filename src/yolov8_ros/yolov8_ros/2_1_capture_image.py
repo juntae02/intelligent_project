@@ -4,6 +4,7 @@ import os
 # ===============================
 # 설정값
 # ===============================
+IMAGE_TOPIC = "/robot2/oakd/rgb/preview/image_raw"
 SAVE_DIR = "img_capture"     # 이미지 저장 디렉토리
 CAPTURE_KEY = 'c'            # 저장 키
 EXIT_KEY = 'q'               # 종료 키

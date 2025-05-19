@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'image_cap = 2_1_capture_image:main',
             'image_pub = 9_1_image_publisher:main',
             'image_sub = 9_2_image_subscriber:main',
             'data_pub = 9_3_data_publisher:main',

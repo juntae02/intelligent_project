@@ -32,6 +32,7 @@ setup(
             'test_server = rokey_pjt.robot_action_copy:main',
             'test_cli = rokey_pjt.juntae:main',
             'tf_trans = rokey_pjt.4_tb4_tf_transform:main',
+            'obm = rokey_pjt.object_detecting_marking:main',
         ],
     },
 )

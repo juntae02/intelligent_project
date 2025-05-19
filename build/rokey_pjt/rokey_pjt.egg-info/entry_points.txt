@@ -7,6 +7,7 @@ cont_cap_image = rokey_pjt.tb4_cont_capture_image:main
 det_obj = rokey_pjt.tb4_yolov8_obj_det:main
 det_obj_thread = rokey_pjt.tb4_yolov8_obj_det_thread:main
 det_obj_track = rokey_pjt.tb4_yolov8_obj_det_track:main
+obm = rokey_pjt.object_detecting_marking:main
 test_cli = rokey_pjt.juntae:main
 test_server = rokey_pjt.robot_action_copy:main
 tf_trans = rokey_pjt.4_tb4_tf_transform:main
